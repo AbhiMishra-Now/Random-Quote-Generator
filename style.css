@@ -1,0 +1,80 @@
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+
+body {
+    text-align: center;
+    background-color: #faffb8;
+}
+
+/* Game 
+
+ main {
+    height: 50%;
+    width: 50%;
+    margin: auto;
+} 
+*/
+.container {
+    background-color: #5500ff;
+    border: 3px solid;
+    border-radius: 30px;
+    width: 50%;
+    height: 600px;
+    margin: 0 auto;
+    filter: drop-shadow(3px 3px 8px black);
+}
+
+.output {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    height: 30vh;
+    width: 40vw;
+    margin: 60px auto 0;
+    border: 3px solid;
+    border-radius: 20px;
+    filter: drop-shadow(3px 3px 8px black);
+        background: linear-gradient(199deg,#8c20e6,#22b9df,#4542ff);
+        background-size: 180% 180%;
+        animation: gradient-animation 18s ease infinite;
+      }
+      
+      @keyframes gradient-animation {
+        0% {
+          background-position: 0% 50%;
+        }
+        50% {
+          background-position: 100% 50%;
+        }
+        100% {
+          background-position: 0% 50%;
+        }
+      }
+
+.button {
+    margin: 80px auto;
+    width: 30vw;
+    cursor: pointer;
+    background-color: #F2CEBB;
+    border-radius: 100px;
+    filter: drop-shadow(3px 3px 3px black);
+}
+
+.output p {
+    font-size: 3rem;
+}
+
+.button-click {
+    animation: outputBox 2s ease-in;
+}
+
+@keyframes outputBox {
+    0% {
+        opacity: 0
+    }
+    100% {
+        opacity: 1;
+    }
+}
